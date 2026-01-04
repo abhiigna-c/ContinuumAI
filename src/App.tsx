@@ -3,8 +3,8 @@
 import { useState, useEffect } from "react"
 import { auth } from "./firebase"
 import { onAuthStateChanged } from "firebase/auth"
-import LandingPage from "./pages/LandingPage"
-import AuthPage from "./pages/AuthPage"
+import LandingPage from "./app/LandingPage"
+import AuthPage from "./app/AuthPage"
 import DashboardLayout from "./layouts/DashboardLayout"
 
 export default function App() {
